@@ -4,7 +4,7 @@ const router = express.Router();
 // In-memory "DB" (jen pro příklad)
 let users = [
   { id: 1, name: 'Alice', email: 'alice@example.com' },
-  { id: 2, name: 'Bob', email: 'bob@example.com' },
+  { id: 2, name: 'Bob', email: 'bob@example.com', tags: ['tags', 'active', 'tester'] },
 ];
 let nextId = 3;
 
